@@ -33,7 +33,7 @@ section {
 } */
 
 /* Divisão */
-
+/* 
 .divisor1 {
     height: 1px;
     background: rgb(0, 0, 0);
@@ -47,7 +47,7 @@ section {
     width: 1px;
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.068), rgba(22, 26, 37, 1) 50%, rgba(0, 0, 0, 0.068) 100%);
-}
+} */
 
 /* Termino da divisão */
 
@@ -174,7 +174,7 @@ section {
 
 .nossos-servicos {
     height: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 18rem;
 }
 
 .nossos-servicos-content {
