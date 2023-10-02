@@ -62,8 +62,18 @@ section {
     backdrop-filter: blur(15px);
     padding: 0.5% 9% 0.5% 9% !important;
     box-shadow: 0px -50px 40px 10px;
+
+    transition: 0.2s ease ;
 }
 
+.navbar:hover{
+    filter: invert(100%);
+    box-shadow: 0px -20px 40px 10px #ffffff;
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+}
 
 .navbar-collapse {
     flex-grow: 0 !important;
@@ -75,12 +85,11 @@ section {
     color: var(--text);
     font-weight: 600;
     cursor: pointer;
+    transition: color 0.3s ease;
 }
 
-.navbar-collapse a:hover {
-    opacity: 0.6;
-    transition: opacity 0.3s ease;
-    color: #1B59DE;
+.navbar-collapse a:hover {    
+    color: #E4A621;
 }
 
 .btn-contato {
@@ -96,6 +105,8 @@ section {
 .btn-contato:hover {
     transform: translate(0, -3px);
     transition: 0.3s;
+
+    opacity: 0.7;
 }
 
 /* Termino navabar */
