@@ -88,6 +88,7 @@ section {
     position: fixed !important;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+    -webkit-filter: blur(15px);
     padding: 0.5% 9% 0.5% 9% !important;
     box-shadow: 0px -50px 40px 10px;
 
