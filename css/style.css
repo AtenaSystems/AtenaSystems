@@ -84,20 +84,23 @@ section {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
     position: fixed !important;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    -webkit-filter: blur(15px);
     padding: 0.5% 9% 0.5% 9% !important;
     box-shadow: 0px -50px 40px 10px;
 
     transition: 0.2s ease ;
 }
 
+body{
+    transition: background-color 0.5s ease;
+    background-color: #ffffff; /* Cor de fundo padrão */
+    margin: 0;
+    padding: 0;
+    height: 200vh; /* Altura extra para permitir a rolagem */
+}
+
 .navbar:hover{
-    filter: invert(100%);
-    box-shadow: 0px -20px 40px 10px #ffffff;
+    box-shadow: 0px -40px 40px 10px #000000;
 }
 
 .navbar-brand:hover{
@@ -118,7 +121,7 @@ section {
 }
 
 .navbar-collapse a:hover {    
-    color: #E4A621;
+    color: #1B59DE;
 }
 
 .btn-contato {

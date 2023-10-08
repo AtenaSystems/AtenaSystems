@@ -248,4 +248,24 @@ if (isset($emailEnviado)) {
         crossorigin="anonymous"></script>
 </body>
 
+<script>
+        window.addEventListener("scroll", function() {
+            const scrollPosition = window.scrollY;
+
+            // Defina a altura em que deseja que a mudança de cor ocorra (em pixels)
+            const alturaMudancaDeCor = 200;
+
+            const navbar = document.querySelector(".navbar");
+
+            if (scrollPosition > alturaMudancaDeCor) {
+                // Altere a cor de fundo da barra de navegação quando a página for rolada para baixo
+                navbar.style.backgroundColor = "#e5eaf5"; // Nova cor de fundo
+            } else {
+                // Volte à cor de fundo da barra de navegação padrão
+                navbar.style.backgroundColor = "transparent"; // Cor de fundo inicial
+            }
+        });
+</script>
+
+
 </html>
