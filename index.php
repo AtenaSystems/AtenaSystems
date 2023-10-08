@@ -194,18 +194,40 @@
         <div class="form-contato">
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                 <!-- Campo Nome e Email lado a lado -->
-                <div class="nome-email">
-                        <input type="text" id="nome" name="nome" placeholder="Nome" required>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                </div>
+                        <input type="text" id="email" name="email" placeholder="Email" required>
+                        <input type="assunto" id="assunto" name="assunto" placeholder="Assunto" required>
                 <!-- Campo Comentário abaixo -->
-                    <textarea id="comentario" name="comentario" placeholder="Comentário" required></textarea>
+                    <textarea id="mensagem" name="mensagem" placeholder="Comentário" required></textarea>
                 
                 <!-- Botão de envio -->
                     <button type="submit" class="btn-form">Enviar</button>
             </form>
         </div>
 
+        <?php
+if (isset($emailEnviado)) {
+    if ($emailEnviado) {
+        echo "<p id='success-message'>E-mail enviado com sucesso.</p>";
+    } else {
+        echo "<p id='error-message'>Ocorreu um erro ao enviar o e-mail.</p>";
+    }
+}
+?>
+
+<script>
+    
+    setTimeout(function() {
+        var successMessage = document.getElementById('success-message');
+        var errorMessage = document.getElementById('error-message');
+        
+        if (successMessage) {
+            successMessage.style.display = 'none';
+        }
+        if (errorMessage) {
+            errorMessage.style.display = 'none';
+        }
+    }, 4000); 
+</script>
 
             <div class="contato-redes">
                 <h3>REDES</h3>
