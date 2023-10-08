@@ -194,8 +194,8 @@
         <div class="form-contato">
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                 <!-- Campo Nome e Email lado a lado -->
-                        <input type="text" id="email" name="email" placeholder="Email" required>
-                        <input type="assunto" id="assunto" name="assunto" placeholder="Nome" required>
+                        <input type="text" id="email" name="email" placeholder="Seu email" required>
+                        <input type="assunto" id="assunto" name="assunto" placeholder="Seu nome" required>
                 <!-- Campo Comentário abaixo -->
                     <textarea id="mensagem" name="mensagem" placeholder="Comentário" required></textarea>
                 
