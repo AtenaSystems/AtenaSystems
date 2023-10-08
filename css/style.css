@@ -178,11 +178,18 @@ section {
     font-size: 2.5em;
     padding-top: 8rem;
     text-align: left;
-
-    border-bottom: 4px solid;
-    border-image: linear-gradient(to right, #000 7%, #000, #1b59de00 7%) 1;
 }
 
+.nossos-servicos h1:nth-child(1)::after{
+    width: 15rem;
+    height: 10px;
+    background-color: #1b59de62;
+    content:"";
+    position: relative;
+    display: block;
+    transform: translate(0px, -15px);
+    z-index: -1;
+}
 
 .nossos-servicos {
     height: auto;
@@ -229,10 +236,22 @@ section {
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: left;
+    z-index: 5;
 
-    border-bottom: 4px solid;
-    border-image: linear-gradient(to right, #000 5%, #000, #1b59de00 5%) 1;
 
+}
+
+.sobre-nos h1:nth-child(1)::after{
+    width: 12rem;
+    height: 10px;
+    background-color: #1b59de62;
+    content:"";
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    z-index: -5;
+    transform: translate(0px, -15px);
 }
 
 .sobre-nos p {
@@ -254,10 +273,22 @@ section {
     border-image: linear-gradient(to right, #00000000 10%, #1B59DE, #00000000 90%) 1;
 }
 
-.contato h1:first-child{
-    border-bottom: 3px solid;
-    border-image: linear-gradient(to right, #000 5%, #000, #1b59de00 5%) 1;
+.contato h1:nth-child(1){
+    z-index: 99999;
+    position: relative;
 }
+
+.contato h1:nth-child(1)::after{
+    width: 10rem;
+    height: 10px;
+    background-color: #1b59de62;
+    content:"";
+    position: relative;
+    display: block;
+    transform: translate(0px, -15px);
+    z-index: -1;
+}
+
 
 .form {
     display: flex;
