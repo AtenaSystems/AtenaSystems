@@ -472,6 +472,9 @@ section {
     margin-top: -2.7vh;
 }
 
+.success-message{
+    font-weight: bold;
+}
 
 /* .divisor5{
     border-top: 5px dashed var(--primary);

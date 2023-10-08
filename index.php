@@ -207,7 +207,7 @@
         <?php
 if (isset($emailEnviado)) {
     if ($emailEnviado) {
-        echo "<p id='success-message'>E-mail enviado com sucesso.</p>";
+        echo "<p id='success-message' class='success-message'>E-mail enviado com sucesso.</p>";
     } else {
         echo "<p id='error-message'>Ocorreu um erro ao enviar o e-mail.</p>";
     }
