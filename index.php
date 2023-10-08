@@ -171,11 +171,12 @@
         <h1 id="contato">CONTATO</h1>
         <div class="contato-content">
             
-            <?php
+        <?php
+            if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 $destinatario = "atenasystemtcc@gmail.com";
-                $assunto = $_POST["assunto"];
-                $mensagem = $_POST["mensagem"];
-                $email = $_POST["email"];
+                $assunto = isset($_POST["assunto"]) ? $_POST["assunto"] : "";
+                $mensagem = isset($_POST["mensagem"]) ? $_POST["mensagem"] : "";
+                $email = isset($_POST["email"]) ? $_POST["email"] : "";
 
                 $smtpHost = "smtp.gmail.com";
                 $smtpPort = 587;
@@ -186,12 +187,9 @@
                 $headers .= "Reply-To: $email\r\n";
                 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-                if (mail($destinatario, $assunto, $mensagem, $headers, "-f $email")) {
-                    echo "E-mail enviado com sucesso.";
-                } else {
-                    echo "Ocorreu um erro ao enviar o e-mail.";
-                }
-            ?>
+                $emailEnviado = mail($destinatario, $assunto, $mensagem, $headers, "-f $email");
+            }
+        ?>
 
         <div class="form-contato">
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
