@@ -160,11 +160,7 @@
           </style>
         </div>
       </section> -->
-    
-    <!-- <div class="d4">
-        <div class="divisor4"></div>
-        <div class="divisor4"></div>
-    </div> -->
+
 
     <section class="contato">
         <h1 id="contato">CONTATO</h1>
