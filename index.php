@@ -59,9 +59,7 @@
         </div >
     </section>
     <div id="nossos-servicos" class="d1">
-        <div class="divisor1"></div>
     </div>
-
 
     <section class="nossos-servicos" id="nossos-servicos">
         <h1 class="nossos-servicos-h1">NOSSOS SERVIÇOS</h1>
@@ -94,10 +92,8 @@
                      Nossa equipe especializada identifica e corrige vulnerabilidades, garantindo a segurança contínua.</p>
             </div>
         </div>
+ 
     </section>
-
-    <div class="divisor1"></div>
-
     <section class="sobre-nos">
         <h1 class="sobre-nos-h1">SOBRE NÓS</h1>
         <div class="sobre-nos-content">
@@ -110,8 +106,10 @@
                 em realidade.
                 Contamos com serviços de alta qualidade para impulsionar o crescimento das empresas. Estamos ansiosos para
                 colaborar com você e construir uma parceria de sucesso!</p>
+
+
     </section>
-    
+
     <!-- <section id="mapa">
         <div class="mapa">
           <iframe
@@ -167,6 +165,7 @@
         <div class="divisor4"></div>
         <div class="divisor4"></div>
     </div> -->
+
     <section class="contato">
         <h1 id="contato">CONTATO</h1>
         <div class="contato-content">

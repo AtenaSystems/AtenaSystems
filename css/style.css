@@ -151,6 +151,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    background: linear-gradient(339deg, #acc6ff00 50%, #acc6ff 90%, #acc6ff 100%);
 }
 
 .home-page-content {
