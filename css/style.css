@@ -606,7 +606,7 @@ footer p {
         margin-bottom: 1rem;
         align-items: center;
         gap: 1rem;
-        margin-top: 15rem !important;
+        margin-top: -23rem !important;
     }
     .home-page-content p:nth-child(2){
         margin: 1.5rem 0rem 1.5rem 0rem;
