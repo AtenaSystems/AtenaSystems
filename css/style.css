@@ -17,12 +17,16 @@
 }
 
 body {
-    height: 100%;
     background-color: var(--background) !important;
-
     overflow-x: hidden;
-
     cursor: default;
+
+    transition: background-color 0.5s ease;
+    margin: 0;
+    padding: 0;
+    height: auto; /* Altura extra para permitir a rolagem */
+    /* background: linear-gradient(339deg, #acc6ff00 50%, #acc6ff 90%, #acc6ff 100%); */
+    background: linear-gradient(339deg, #acc6ff00 64%, #acc6ff 95%, #acc6ff 0%);
 }
 
 ::-webkit-scrollbar{
@@ -91,13 +95,6 @@ section {
     transition: 0.2s ease ;
 }
 
-body{
-    transition: background-color 0.5s ease;
-    background-color: #ffffff; /* Cor de fundo padrão */
-    margin: 0;
-    padding: 0;
-    height: 200vh; /* Altura extra para permitir a rolagem */
-}
 
 .navbar:hover{
     box-shadow: 0px -40px 40px 10px #000000;
@@ -151,8 +148,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    background: linear-gradient(339deg, #acc6ff00 50%, #acc6ff 90%, #acc6ff 100%);
 }
 
 .home-page-content {
