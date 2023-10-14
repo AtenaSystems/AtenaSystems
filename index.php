@@ -57,6 +57,7 @@
         <div>
             <img src="img/Cópia de Prancheta 1_3.png" alt="" style="max-width:200px;" class="logo">
         </div >
+
     </section>
     <div id="nossos-servicos" class="d1">
     </div>
@@ -94,7 +95,7 @@
         </div>
  
     </section>
-    <section class="sobre-nos">
+    <section class="sobre-nos ">
         <h1 class="sobre-nos-h1">SOBRE NÓS</h1>
         <div class="sobre-nos-content">
             <p id="sobre-nos">A Atena Systems é uma software house em Campinas - SP, fundada por sete talentosos programadores do
@@ -106,7 +107,12 @@
                 em realidade.
                 Contamos com serviços de alta qualidade para impulsionar o crescimento das empresas. Estamos ansiosos para
                 colaborar com você e construir uma parceria de sucesso!</p>
+            <span class="blur"></span>
+            <span class="blur"></span>
 
+
+
+            
 
     </section>
 

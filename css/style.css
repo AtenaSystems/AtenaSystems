@@ -58,6 +58,18 @@ section {
     padding: 0 9%;
 }
 
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #0051ff ;
+    z-index: -100;
+    
+}
+
+
+
+
+
 /* .logo:hover{
     transform: rotate(360deg);
     transition: all ease-in-out 0.4s;
