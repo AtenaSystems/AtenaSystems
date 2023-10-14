@@ -67,7 +67,14 @@ section {
 }
 
 
-
+.icons{
+    background-color: #4c63ad33;
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-bottom: 8rem;
+    color: #4c63ad !important;
+}
 
 
 /* .logo:hover{
@@ -103,6 +110,8 @@ section {
     position: fixed !important;
     padding: 0.5% 9% 0.5% 9% !important;
     box-shadow: 0px -50px 40px 10px;
+
+    z-index: 9999999 !important;
 
     transition: 0.2s ease ;
 }
@@ -244,6 +253,9 @@ section {
 
 .nossos-servicos-content {
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .nossos-servicos-content h3 {
@@ -263,6 +275,7 @@ section {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 
@@ -309,7 +322,7 @@ section {
 .sobre-nos p {
     font-weight: 500;
     max-width: 1000px;
-    text-align: justify;
+    text-align: left;
     font-size: 1.3em;
 }
 

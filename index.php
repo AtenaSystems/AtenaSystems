@@ -12,6 +12,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="js/script.js"></script>
+
+    <!-- icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Atena Systems</title>
 </head>
 
@@ -51,7 +56,7 @@
         <div class="home-page-content">
             <p class="" style="font-size: 1.2rem;">DESENVOLVA <span class="efeito-cor">SEU SOFTWARE</span></p>
             <p style="font-size: 2.5rem ; max-width: 900px;">soluções e desenvolvimento de software
-                para sua empresa</p>
+                para sua empresa.</p>
             <a onclick="pageScrollnossosservicos()">Saiba mais</a>
         </div>
         <div>
@@ -67,36 +72,51 @@
         <div class="content-1">
 
             <div class="nossos-servicos-content">
-                <h3> <span style="color: #1B59DE; font-size: 1.5em; ">01 </span> Desenvolvimento de aplicativos</h3>
+            <!-- <i class="icons fa-solid fa-code fa-xl" style="color: #005eff;"></i>     -->
+                <div>
+                
+                <h3>  <span style="color: #1B59DE; font-size: 1.5em; ">01 </span>  Desenvolvimento de Aplicativos</h3>
                 <p>Criação de aplicativos para dispositivos móveis, computadores e tablets, usando as mais recentes
                     tecnologias para melhorar a experiência do usuário.</p>
+                </div>
             </div>
             <!-- <div class="d2">
                 <div class="divisor2"></div>
             </div> -->
             <div class="nossos-servicos-content">
-                <h3> <span style="color: #1B59DE; font-size: 1.5em;">02 </span>  Desenvolvimento de Sites</h3>
+            <!-- <i class="icons fa-regular fa-window-restore fa-xl"></i>  -->
+                <div>
+                
+                <h3>  <span style="color: #1B59DE; font-size: 1.5em;">02 </span>  Desenvolvimento de Sites</h3>
                 <p>Desenvolvimento de sites responsivos, seguros e escaláveis, usando as melhores práticas de
                     programação e design.</p>
+                </div>
             </div>
 
             
             
             <div class="nossos-servicos-content">
-                <h3> <span style="color: #1B59DE; font-size: 1.5em;">03 </span> Suporte à Aplicação</h3>
+            <!-- <i class="icons fa-solid fa-headset fa-xl" style="color: #38588f;"></i>    -->
+            <div> 
+            
+                <h3>  <span style="color: #1B59DE; font-size: 1.5em;">03 </span>  Suporte à Aplicação</h3>
                 <p>Manutenção da aplicação para garantir o melhor desempenho, correção de bugs e implementação de novos
                     recursos.</p>
+                </div>
             </div>
             <div class="nossos-servicos-content">
-                <h3> <span style="color: #1B59DE; font-size: 1.5em;">04 </span> Segurança</h3>
-                <p>Protegemos seus sistemas com criptografia avançada e autenticação robusta.
+            <!-- <i class=" icons fa-solid fa-shield-halved  fa-xl" style="color: #305697;"></i> -->
+                <div>
+                    <h3>  <span style="color: #1B59DE; font-size: 1.5em;">04 </span>  Segurança</h3>
+                    <p>Protegemos seus sistemas com criptografia avançada e autenticação robusta.
                      Nossa equipe especializada identifica e corrige vulnerabilidades, garantindo a segurança contínua.</p>
-            </div>
+                </div>
+                    </div>
         </div>
  
     </section>
     <section class="sobre-nos ">
-        <h1 class="sobre-nos-h1">SOBRE NÓS</h1>
+        <h1 class="sobre-nos-h1"> SOBRE NÓS </h1>
         <div class="sobre-nos-content">
             <p id="sobre-nos">A Atena Systems é uma software house em Campinas - SP, fundada por sete talentosos programadores do
                 renomado Colégio Técnico "Bento Quirino".
