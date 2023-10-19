@@ -127,13 +127,6 @@
                 em realidade.
                 Contamos com serviços de alta qualidade para impulsionar o crescimento das empresas. Estamos ansiosos para
                 colaborar com você e construir uma parceria de sucesso!</p>
-            <span class="blur"></span>
-            <span class="blur"></span>
-
-
-
-            
-
     </section>
 
     <!-- <section id="mapa">
