@@ -224,7 +224,7 @@ section {
 
 .nossos-servicos h1:nth-child(1) {
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: clamp(25px, 2vw, 2.5em);
     padding-top: 8rem;
     text-align: left;
 }
@@ -260,12 +260,12 @@ section {
 
 .nossos-servicos-content h3 {
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: clamp(19px,2vw, 1.5em);
 }
 
 .nossos-servicos-content p {
     font-weight: 400;
-    font-size: 1.3em;
+    font-size: clamp(14px, 2vw, 1.3em);
     max-width: 650px;
 }
 
@@ -291,7 +291,7 @@ section {
 
 .sobre-nos h1:first-child {
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: clamp(25px, 2vw, 2.5em);
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: left;
@@ -323,7 +323,7 @@ section {
     font-weight: 500;
     max-width: 1000px;
     text-align: left;
-    font-size: 1.3em;
+    font-size: clamp(13px, 2vw, 1.3em);
 }
 
 
@@ -422,7 +422,7 @@ section {
 
 .form-contato input, textarea {
     font-weight: 700 ;
-    font-size: 1em ;
+    font-size: clamp(14px, 2vw, 1em) ;
     background-color: var(--background) ;
     border: 1px solid var(--accent);
     transition: all 0.3s ease;
@@ -478,11 +478,12 @@ section {
 
 .contato-content h3 {
     font-weight: 600;
+    font-size: clamp(17px, 2vw, 1.5rem);
 }
 
 .contato h1:first-child {
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: clamp(25px, 2vw, 2.5em);
     padding-top: 5rem;
     text-align: left;
 }

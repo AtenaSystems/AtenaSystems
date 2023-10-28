@@ -75,7 +75,7 @@
             <!-- <i class="icons fa-solid fa-code fa-xl" style="color: #005eff;"></i>     -->
                 <div>
                 
-                <h3>  <span style="color: #1B59DE; font-size: 1.5em; ">01 </span>  Desenvolvimento de Aplicativos</h3>
+                <h3>  <span style="color: #1B59DE; font-size: clamp(26px,2vw, 1.5em); ">01 </span>  Desenvolvimento de Aplicativos</h3>
                 <p>Criação de aplicativos para dispositivos móveis, computadores e tablets, usando as mais recentes
                     tecnologias para melhorar a experiência do usuário.</p>
                 </div>
@@ -87,7 +87,7 @@
             <!-- <i class="icons fa-regular fa-window-restore fa-xl"></i>  -->
                 <div>
                 
-                <h3>  <span style="color: #1B59DE; font-size: 1.5em;">02 </span>  Desenvolvimento de Sites</h3>
+                <h3>  <span style="color: #1B59DE; font-size: clamp(26px,2vw, 1.5em);">02 </span>  Desenvolvimento de Sites</h3>
                 <p>Desenvolvimento de sites responsivos, seguros e escaláveis, usando as melhores práticas de
                     programação e design.</p>
                 </div>
@@ -99,7 +99,7 @@
             <!-- <i class="icons fa-solid fa-headset fa-xl" style="color: #38588f;"></i>    -->
             <div> 
             
-                <h3>  <span style="color: #1B59DE; font-size: 1.5em;">03 </span>  Suporte à Aplicação</h3>
+                <h3>  <span style="color: #1B59DE; font-size: clamp(26px,2vw, 1.5em);">03 </span>  Suporte à Aplicação</h3>
                 <p>Manutenção da aplicação para garantir o melhor desempenho, correção de bugs e implementação de novos
                     recursos.</p>
                 </div>
@@ -107,7 +107,7 @@
             <div class="nossos-servicos-content">
             <!-- <i class=" icons fa-solid fa-shield-halved  fa-xl" style="color: #305697;"></i> -->
                 <div>
-                    <h3>  <span style="color: #1B59DE; font-size: 1.5em;">04 </span>  Segurança</h3>
+                    <h3>  <span style="color: #1B59DE; font-size: clamp(26px,2vw, 1.5em);">04 </span>  Segurança</h3>
                     <p>Protegemos seus sistemas com criptografia avançada e autenticação robusta.
                      Nossa equipe especializada identifica e corrige vulnerabilidades, garantindo a segurança contínua.</p>
                 </div>
