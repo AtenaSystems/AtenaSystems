@@ -190,8 +190,7 @@ section {
 }
 
 .home-page-content p:nth-child(2) {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 1.5rem 0rem 1.5rem 0rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -205,10 +204,10 @@ section {
     color: var(--background) !important;
     background-color: var(--primary);
     text-decoration: none;
-    padding: 0.6rem;
+    padding: 0.6rem 1rem;
     border-radius: 6px;
-    font-size: 1.1em;
-
+    font-size: clamp(15px, 2vw, 1.1rem);
+    margin-top: 4rem;
 }
 
 .home-page a:hover {
@@ -321,6 +320,7 @@ section {
 
 .sobre-nos p {
     font-weight: 500;
+    line-height: 1.6;
     max-width: 1000px;
     text-align: left;
     font-size: clamp(13px, 2vw, 1.3em);

@@ -54,8 +54,8 @@
     </header>
     <section class="home-page">
         <div class="home-page-content">
-            <p class="" style="font-size: 1.2rem;">DESENVOLVA <span class="efeito-cor">SEU SOFTWARE</span></p>
-            <p style="font-size: 2.5rem ; max-width: 900px;">soluções e desenvolvimento de software
+        <p class="" style="font-size: clamp(14px, 1.5vw, 1.2rem);">DESENVOLVA <span class="efeito-cor">SEU SOFTWARE</span></p>
+            <p style="font-size: clamp(26px, 3vw, 2.5rem);max-width: 900px;">soluções e desenvolvimento de software
                 para sua empresa.</p>
             <a onclick="pageScrollnossosservicos()">Saiba mais</a>
         </div>
