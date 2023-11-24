@@ -147,7 +147,7 @@ section {
 .btn-contato {
     background-color: var(--primary) !important;
     color: var(--background) !important;
-    border-radius: 6px;
+    border-radius: 30px;
     font-weight: 600 !important;
     mix-blend-mode: normal;
 
