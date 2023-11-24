@@ -206,18 +206,35 @@ section {
     color: var(--background) !important;
     background-color: var(--primary);
     text-decoration: none;
-    padding: 0.6rem 1rem;
-    border-radius: 6px;
+    padding: 0.6rem 0.5rem 0.6rem 1rem;
+    border-radius: 30px;
+    display: flex;
+    gap: 1rem;
     font-size: clamp(15px, 2vw, 1.1rem);
     margin-top: 4rem;
+    transition: 0.3s ease all;
+    align-items: center;
 }
 
 .home-page a:hover {
     transform: translate(0, -3px);
     transition: 0.2s;
+    background-color: #2e2e2e;
     box-shadow: 0px 20px 70px -10px #1B59DE;
     cursor: pointer;
 }
+
+.home-page a i{
+    background-color: #2e2e2e;
+    height: 2rem;
+    font-size: 2rem;
+    display: flex;
+    width: 2rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Termino da seção homepage */
 

@@ -16,6 +16,7 @@
     <!-- icone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
     <title>Atena Systems</title>
 </head>
@@ -57,7 +58,7 @@
         <p class="" style="font-size: clamp(14px, 1.5vw, 1.2rem);">DESENVOLVA <span class="efeito-cor">SEU SOFTWARE</span></p>
             <p style="font-size: clamp(26px, 3vw, 2.5rem);max-width: 900px;">soluções e desenvolvimento de software
                 para sua empresa.</p>
-            <a onclick="pageScrollnossosservicos()">Saiba mais</a>
+            <a onclick="pageScrollnossosservicos()">Saiba mais <i class="bi bi-arrow-right-short"></i></a>
         </div>
         <div>
             <img src="img/Cópia de Prancheta 1_3.png" alt="" style="max-width:200px;" class="logo">
